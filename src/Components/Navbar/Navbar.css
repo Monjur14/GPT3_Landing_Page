@@ -1,0 +1,126 @@
+.navbar{
+    width: 100%;
+    background: radial-gradient(circle at 6% 20%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    padding: 1.1rem 2rem;
+    position: relative;
+}
+.logo img{
+    width: 90px;
+}
+.navitem{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.navitem ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+.big__screen_ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+.buttons{
+    display: flex;
+    gap: 0.5rem;
+}
+.big__screen_ul li a:hover{
+    color: #FF4820;
+}
+.btn1{
+    width: 90px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+}
+.open_btn{
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+.close_btn{
+    font-size: 35px;
+    cursor: pointer;
+    color: #fff;
+    text-align: right;
+    position: absolute;
+    right: 30px;
+}
+.small__screen_div{
+    padding-right: 1rem;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* background: radial-gradient(circle at 6% 20%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%); */
+    background: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    padding-top: 1rem;
+    backdrop-filter: blur(25px);
+    animation: menu 1s;
+}
+@keyframes menu{
+    0%{
+        right: -500px;
+    }
+    100%{
+        right: 0px;
+    }
+}
+.small__screen_ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.small__screen_ul li a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media (0px < width <= 1050px) {
+    .buttons{
+        display: none;
+    }
+    .big__screen_ul li{
+        display: none;
+    }
+    .open_btn{
+        display: block;
+    }
+    .small__screen_div{
+        display: block;
+    }
+    .small__screen_ul{
+        display: block
+    }
+    .small__screen_ul li a{
+        color: #fff;
+    }
+    .small__screen_ul li a:hover{
+        color:#FF4820;
+    }
+}
+@media (0px < width <= 650px) {
+    .small__screen_div{
+        width: 100%;
+    }
+    .logo img{
+        width: 70px;
+    }
+    .navbar{
+        padding: 1.1rem 1rem;
+    }
+}

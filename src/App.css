@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: var(--font-family);
+    /* border: 1px solid red; */
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.gradient_bg{
+    background: radial-gradient(circle at 6% 20%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+}

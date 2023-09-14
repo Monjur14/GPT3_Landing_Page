@@ -1,0 +1,115 @@
+.header__inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 2rem;
+}
+.header{
+    width: 100%;
+    padding: 0 2rem;
+}
+.header__right img{
+    width: 540px;
+    margin-top: 20px;
+}
+.header__right{
+    display: grid;
+    place-content: center;
+    margin-left: 2rem;
+}
+.header__left h1{
+    font-size: 3.5rem;
+    margin-top: 3.5rem;
+    letter-spacing: -1px;
+    line-height: 1.2;
+    font-weight: 800;
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header__left p{
+    color: var(--color-text);
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+.input__div{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.input__div input{
+    width: 60%;
+    background-color: #052D56;
+    border: none;
+    outline: none;
+    padding-left: 0.7rem;
+    color: #fff;
+}
+.img_content{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: -0.5rem;
+}
+.img_content p{
+    font-size: 0.8rem;
+}
+@media (0px < width <= 1050px) {
+    .header__inner{
+        grid-template-columns: 1fr;
+    }
+    .header__left h1{
+        font-size: 4.2rem;
+        text-align: left;
+    }
+    .header__left p{
+        font-size: 1.2rem;
+    }
+    .header__right img{
+        width: 640px;
+    }
+}
+@media (1050px < width <= 1165px) {
+    .header__left{
+        padding-right: 2rem;
+    }
+}
+@media (0px < width <= 720px) {
+    .header__left{
+        max-width: 600px;
+    }
+    .header__right img{
+        width: 550px;
+    }
+}
+@media (0px < width <= 650px) {
+    .header__left h1{
+        font-size: 3.1rem;
+    }
+    .header__right img{
+        width: 100%;
+    }
+    .header{
+        padding: 0 1rem;
+    }
+    .input__div input{
+        width: 75%;
+    }
+    .img_content{
+        flex-direction: column;
+        gap: 0rem;
+        margin-top: 1.5rem;
+    }
+    .img_content p{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+}
+@media (0px < width <= 500px) {
+    .header__left h1{
+        font-size: 2.8rem;
+        margin-top: 1.8rem;
+    }
+    
+}
