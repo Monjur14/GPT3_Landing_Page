@@ -1,0 +1,21 @@
+.brand{
+    width: 100%;
+    background: linear-gradient(66deg, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    padding: 3rem 2rem;
+}
+.brand_container{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+@media (0px < width <= 820px) {
+    .brand_container{
+        gap: 3rem;
+    }
+}
+@media (0px < width <= 650px) {
+    .brand_container{
+        gap: 2rem;
+    }
+}

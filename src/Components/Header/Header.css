@@ -8,7 +8,7 @@
     padding: 0 2rem;
 }
 .header__right img{
-    width: 540px;
+    width: 100%;
     margin-top: 20px;
 }
 .header__right{
@@ -66,9 +66,6 @@
     .header__left p{
         font-size: 1.2rem;
     }
-    .header__right img{
-        width: 640px;
-    }
 }
 @media (1050px < width <= 1165px) {
     .header__left{
@@ -79,16 +76,10 @@
     .header__left{
         max-width: 600px;
     }
-    .header__right img{
-        width: 550px;
-    }
 }
 @media (0px < width <= 650px) {
     .header__left h1{
         font-size: 3.1rem;
-    }
-    .header__right img{
-        width: 100%;
     }
     .header{
         padding: 0 1rem;
@@ -108,8 +99,13 @@
 }
 @media (0px < width <= 500px) {
     .header__left h1{
-        font-size: 2.8rem;
+        font-size: 2.6rem;
         margin-top: 1.8rem;
     }
-    
+    .header__left p{
+        text-align: left;
+    }
+    .img_content p{
+        text-align: center;
+    }
 }

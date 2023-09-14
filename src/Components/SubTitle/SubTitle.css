@@ -1,0 +1,23 @@
+.upper__line{
+    width: 45px;
+    height: 5px;
+    background-image: var(--gradient-bar);
+}
+h1{
+    color: #fff;
+    font-size: 1.7rem;
+    margin-top: 10px;
+    margin-bottom: 1.5rem;
+}
+.subtitle{
+    min-width: 200px;
+}
+p{
+    color: var(--color-text);
+    line-height: 1.7;
+}
+@media (0px < width <= 650px) {
+    h1{
+        margin-bottom: 0.8rem;
+    }
+}
