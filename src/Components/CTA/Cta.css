@@ -38,11 +38,14 @@
         margin-bottom: 30px;
     }
     .cta{
-        padding: 2rem;
+        padding: 2rem 1.2rem;
     }
 }
 @media (0px < width <= 500px) {
     .cta__content h1{
         font-size: 1.2rem;
+    }
+    .inner__cta{
+        padding: 2rem 1rem;
     }
 }

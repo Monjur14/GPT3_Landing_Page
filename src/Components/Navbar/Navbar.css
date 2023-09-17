@@ -29,7 +29,7 @@
     gap: 0.5rem;
 }
 .big__screen_ul li a:hover{
-    color: #FF4820;
+    color: #ff4920;
 }
 .btn1{
     width: 90px;
@@ -66,7 +66,7 @@
     display: none;
     padding-top: 1rem;
     backdrop-filter: blur(25px);
-    animation: menu 0.5s;
+    animation: menu 0.8s;
 }
 @keyframes menu{
     0%{

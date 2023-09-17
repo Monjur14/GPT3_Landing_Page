@@ -89,4 +89,7 @@
         grid-template-columns: 1fr;
         gap: 3.5rem;
     }
+    .inner_div{
+        padding: 3rem 1rem;
+    }
 }
