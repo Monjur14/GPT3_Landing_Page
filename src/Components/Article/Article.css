@@ -1,0 +1,23 @@
+.article{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+}
+
+.article img{
+    width: 100%;
+    object-fit: cover;
+}
+.article__content{
+    background-color: #042C54;
+    padding: 1rem;
+}
+.article__content p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.article__content h1{
+    font-size: 1.2rem;
+    margin-top: 7px;
+    margin-bottom: 50px;
+}

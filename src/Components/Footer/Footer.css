@@ -1,0 +1,91 @@
+.footer{
+    padding: 4rem 2rem 2rem;
+    background-color: #031B34;
+}
+.footer__top h1{
+    font-size: 3rem;
+    background-image: var(--gradient-text);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+.footer__top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+.footer__top button{
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    height: 50px;
+}
+.footer__bottom{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 7rem;
+    gap: 5rem;
+}
+.footer__bottom p{
+   color: #fff; 
+   font-size: 0.9rem;
+   margin-top: 1rem;
+}
+.footer__bottom ul{
+    list-style: none;
+}
+.footer__bottom ul li{
+    color: #fff;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+}
+.footer__bottom h3{
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.footer__inner pre{
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.07rem;
+    font-weight: 400;
+}
+@media (0px < width <= 800px) {
+    .footer__bottom{
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+    .footer__top h1{
+     font-size: 2.6rem;   
+    }
+}
+@media (0px < width <= 650px) {
+    .footer__top h1{
+        font-size: 2.3rem;
+    }
+    .footer__bottom{
+        grid-template-columns: 1fr;
+        place-content: center;
+        text-align: center;
+    }
+    .footer{
+        padding: 3rem 1rem;
+    }
+    .footer__inner pre{
+        font-size: 1rem;
+    }
+}
+@media (0px < width <= 500px) {
+    .footer{
+        padding: 2rem 1rem;
+    }
+    .footer__inner pre{
+        font-size: 0.8rem;
+    }
+}

@@ -4,7 +4,7 @@ import Button from '../Button/Button'
 import grpimg from '../../assets/people.png'
 const Header = () => {
   return (
-    <div className='header gradient_bg'>
+    <div className='header gradient_bg' id='home'>
       <div className='header__inner container'>
         <div className="header__left">
           <h1>Let’s Build Something amazing with GPT-3 OpenAI</h1>

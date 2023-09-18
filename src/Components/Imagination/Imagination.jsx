@@ -3,7 +3,7 @@ import imagine from '../../assets/possibility.webp'
 
 const Imagination = () => {
   return (
-    <div className='imagination'>
+    <div className='imagination' id='openai'>
       <div className='inner__imagination container'>
         <div className="left__content">
             <img src={imagine} alt="" />

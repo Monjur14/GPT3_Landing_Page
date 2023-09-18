@@ -3,7 +3,7 @@ import './Future.css'
 
 const Future = () => {
   return (
-    <div className='future'>
+    <div className='future' id='aboutus'>
         <div className="inner__future container">
       <div className="left__content">
         <h1>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h1>

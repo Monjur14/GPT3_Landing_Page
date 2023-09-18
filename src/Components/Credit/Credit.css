@@ -1,0 +1,10 @@
+.credit{
+    padding: 0rem 1rem 2rem;
+    background-color: #031B34;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.credit pre{
+    color: #fff;
+    font-size: 1.1rem;
+    text-align: center;
+}

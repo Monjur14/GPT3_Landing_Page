@@ -1,0 +1,102 @@
+.blog{
+    background: linear-gradient(180deg, rgba(4, 12, 24, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    padding: 4rem 2rem;
+}
+.blog__sec_two{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 2rem;
+}
+.blog__container__second__div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.blog__container__second__div article{
+    height: 300px;
+    width: 200px;
+}
+.blog_sec_one h1{
+    font-size: 3.3rem;
+    margin-bottom: 4rem;
+    background-image: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+.blog__container__second__div .article{
+    max-width: 400px;
+}
+.blog__container__first__div .article{
+    display: flex;
+}
+.blog__container__first__div .article__content h1{
+    margin-bottom: 220px;
+}
+@media (0px < width <= 1178px) {
+    .blog__container__first__div .article__content h1{
+        margin-bottom: 265px;
+    }
+}
+@media (0px < width <=1050px) {
+    .blog__sec_two{
+        grid-template-columns: 1fr;
+    }
+    .blog__container__first__div .article{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .blog__container__first__div .article__content h1{
+        margin-bottom: 0px;
+    }
+    .blog__container__first__div .article__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .blog__container__first__div .article img{
+        max-height: 300px;
+    }
+    .blog__container__second__div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .blog__container__second__div .article{
+        max-width: 500px;
+    }
+}
+@media (0px < width <= 650px) {
+    .blog{
+        padding: 3rem 1rem;
+    }
+    .blog_sec_one h1{
+        font-size: 2.8rem;
+    }
+}
+@media (0px < width <= 550px) {
+    .blog__container__first__div .article{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .blog__container__first__div .article img{
+        max-height: 180px;
+    }
+    .blog__container__first__div .article h1{
+        margin-bottom: 50px;
+    }
+    .blog__container__second__div{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .blog_sec_one h1{
+        font-size: 2.4rem;
+        margin-bottom: 3rem;
+    }
+}
+@media (0px < width <= 390px) {
+    .blog_sec_one h1{
+        font-size: 2.1rem;
+    }
+}

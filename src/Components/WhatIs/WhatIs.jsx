@@ -3,7 +3,7 @@ import "./WhatIs.css"
 
 const WhatIs = () => {
   return (
-    <div className="whatis gradient_bg">
+    <div className="whatis gradient_bg" id="whatisgpt">
       <div className="inner_div container">
         <div className="top__section">
             <div>
