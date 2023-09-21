@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='footer'>
         <div className="container footer__inner">
         <div className="footer__top">
-        <h1>Do you want to step in to the<br/>future before others</h1>
+        <h1 className='text'>Do you want to step in to the<br/>future before others</h1>
         <button>Request Early Access</button>
       </div>
       <div className="footer__bottom">

@@ -7,6 +7,7 @@ const Future = () => {
         <div className="inner__future container">
       <div className="left__content">
         <h1>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h1>
+        
         <p>Request Early Access to Get Started</p>
       </div>
       <div className="right__content">
